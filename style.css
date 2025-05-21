@@ -1,0 +1,51 @@
+.quem-somos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .foto {
+    flex: 1 1 500px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .foto img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .descricao {
+    flex: 2 1 400px;
+    color: #333;
+  }
+  
+  .descricao h2 {
+    font-size: 24px;
+    color: #007BFF;
+    margin-bottom: 10px;
+  }
+  
+  .descricao h3 {
+    font-size: 20px;
+    color: #007BFF;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .descricao p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
